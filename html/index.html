@@ -26,7 +26,7 @@
 
         <div class="row mt-4">
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card1.jpg" class="card-img-top"   alt="...">
@@ -36,12 +36,7 @@
                     <a href="#" class="btn btn-primary" onclick="solicitarServicio()">Solicitar servicio</a>
                 </div>
             </div>
-        /div>
-
-    </div>
-
-
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card2.jpeg" class="card-img-top"   alt="...">
@@ -54,7 +49,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card3.jpeg" class="card-img-top"   alt="...">
@@ -67,7 +62,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card4.jpeg" class="card-img-top"   alt="...">
@@ -79,8 +74,9 @@
                 </div>
 
             </div>
-
-            <div class="col-md-4">
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/CARD5.jpeg" class="card-img-top"   alt="...">
@@ -93,7 +89,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card6.jpeg" class="card-img-top"   alt="...">
@@ -106,7 +102,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card7.jpeg" class="card-img-top"   alt="...">
@@ -119,7 +115,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <div class="card" style="width: 18rem;">
                     <img src="../Imagenes/card8.jpeg" class="card-img-top"   alt="...">
@@ -131,79 +127,76 @@
                 </div>
 
             </div>
-
         </div>
-
-
-        
 
     </div>
 
+<hr>
     <!--formulario-->
 
 <form class="formulario">
 
-    < class="container mt-4">
+    <class="container mt-4">
 
-    <div class="row text-center mb-4">
-    <h4>Ingrese los datos para registrarse</h4>
+        <div class="row text-center mb-4">
+        <h4>Ingrese los datos para registrarse</h4>
+        </div>
+
+        <!-- fila 1 -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+            <label class="form-label">Nombres</label>
+            <input type="text" id="nombres" class="form-control">
+            </div>
+
+            <div class="col-md-6">
+            <label class="form-label">Apellidos</label>
+            <input type="text" id="apellidos" class="form-control">
+            </div>
+        </div>
+
+        <!-- fila 2 -->
+        <div class="row mb-3">
+            <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" id="email" class="form-control">
+            </div>
+
+            <div class="col-md-6">
+            <label class="form-label">Teléfono</label>
+            <input type="number" id="telefono" class="form-control">
+            </div>
+        </div>
+
+        <!-- fila 3 -->
+        <div class="row mb-4">
+
+            <div class="col-md-4">
+                <label class="form-label">Edad</label>
+                <input type="number" id="edad" class="form-control">
+            </div>
+
+            <div class="col-md-4">
+                <label class="formm-label">Ciudad</label>
+                <input type="text" id="ciudad" class="form-control">
+            </div>
+
+            <div class="col-md-4">
+            <label class="form-label">Servicio solicitado</label>
+            <select id="servicio" class="form-select">
+            <option value="">Seleccione</option>
+            <option value="Desarrollo web">Desarrollo web</option>
+            <option value="Desarrollo móvil">Desarrollo móvil</option>
+            <option value="Soporte técnico">Soporte técnico</option>
+            <option value="Consultoría tecnológica">Consultoría tecnológica</option>
+            <option value="Desarrollo web">Desarrollo web</option>
+            <option value="Desarrollo móvil">Desarrollo móvil</option>
+            </select>
+            </div>
+        </div>
+
     </div>
 
-    <!-- fila 1 -->
-    <div class="row mb-3">
-    <div class="col-md-6">
-    <label class="form-label">Nombres</label>
-    <input type="text" id="nombres" class="form-control">
-    </div>
-
-    <div class="col-md-6">
-    <label class="form-label">Apellidos</label>
-    <input type="text" id="apellidos" class="form-control">
-    </div>
-    </div>
-
-    <!-- fila 2 -->
-    <div class="row mb-3">
-    <div class="col-md-6">
-    <label class="form-label">Email</label>
-    <input type="email" id="email" class="form-control">
-    </div>
-
-    <div class="col-md-6">
-    <label class="form-label">Teléfono</label>
-    <input type="number" id="telefono" class="form-control">
-    </div>
-    </div>
-
-    <!-- fila 3 -->
-    <div class="row mb-4">
-
-    <div class="col-md-4">
-        <label class="form-label">Edad</label>
-        <input type="number" id="edad" class="form-control">
-    </div>
-
-    <div class="col-md-4">
-        <label class="formm-label">Ciudad</label>
-        <input type="text" id="ciudad" class="form-control">
-    </div>
-
-    <div class="col-md-4">
-    <label class="form-label">Servicio solicitado</label>
-    <select id="servicio" class="form-select">
-    <option value="">Seleccione</option>
-    <option value="O+">Desarrollo web</option>
-    <option value="O-">Desarrollo móvil</option>
-    <option value="A+">Soporte técnico</option>
-    <option value="A-">Consultoría tecnológica</option>
-    <option value="B+">Desarrollo web</option>
-    <option value="B-">Desarrollo móvil</option>
-    </select>
-    </div>
-
-    </div>
-
-    </div>
 
     <!-- botones -->
     <div class="row text-center mt-4">
@@ -213,8 +206,7 @@
     </div>
 
     </div>
-
-    </div>
+    </form>
 
 </body>
 

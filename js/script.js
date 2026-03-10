@@ -15,7 +15,7 @@ function guardardatos() {
     let correo = document.getElementById("email").value
     let telefono = document.getElementById("telefono").value
     let edad = document.getElementById("edad").value
-    let cuidad = document.getElementById("ciudad").value
+    let ciudad = document.getElementById("ciudad").value
     let servicio = document.getElementById("servicio").value
 
     // Expresiones regulares
@@ -44,6 +44,14 @@ function guardardatos() {
 
     if (!regexEdad.test(edad)) {
         alert("La edad debe ser un número entre 1 y 120.")
+    }
+
+    if (!regexCiudad.test(ciudad)) {
+        alert("La ciudad solo debe contener letras y espacios.")
+    }
+    
+    if (servicio == "") {
+        alert("Debe seleccionar un servicio.")
     }
 
     if (nombre == "") {
