@@ -64,8 +64,7 @@ function guardardatos() {
 
 }
 
-document.getElementById("modoBtn").addEventListener("click", function() {
-
-    document.body.classList.toggle("dark")
-
-})
+function Modo() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
